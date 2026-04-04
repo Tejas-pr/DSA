@@ -1,0 +1,38 @@
+# Default ignored files
+/shelf/
+/workspace.xml
+# Editor-based HTTP Client requests
+/httpRequests/
+# Ignored default folder with query files
+/queries/
+# Datasource local storage ignored files
+/dataSources/
+/dataSources.local.xml
+# IntelliJ IDEA
+.idea/
+*.iml
+
+# Build / Output
+out/
+build/
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Java compiled files
+*.class
+
+# Maven / Gradle (if used later)
+target/
+.gradle/
+
+# Temporary files
+*.tmp
+*.swp
+
+# VS Code (if you ever open there)
+.vscode/
