@@ -18,7 +18,7 @@ build/
 
 # Logs
 *.log
-
+out/
 # OS files
 .DS_Store
 Thumbs.db
@@ -36,3 +36,4 @@ target/
 
 # VS Code (if you ever open there)
 .vscode/
+out
