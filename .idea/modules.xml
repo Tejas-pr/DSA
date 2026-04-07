@@ -3,8 +3,12 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/12-arrays/12-arrays.iml" filepath="$PROJECT_DIR$/12-arrays/12-arrays.iml" />
+<<<<<<< Updated upstream
       <module fileurl="file://$PROJECT_DIR$/13-LinerSearch/13-LinerSearch.iml" filepath="$PROJECT_DIR$/13-LinerSearch/13-LinerSearch.iml" />
       <module fileurl="file://$PROJECT_DIR$/BinarySearch/BinarySearch.iml" filepath="$PROJECT_DIR$/BinarySearch/BinarySearch.iml" />
+=======
+      <module fileurl="file://$PROJECT_DIR$/14-linear-search/14-linear-search.iml" filepath="$PROJECT_DIR$/14-linear-search/14-linear-search.iml" />
+>>>>>>> Stashed changes
       <module fileurl="file://$PROJECT_DIR$/.idea/DSA.iml" filepath="$PROJECT_DIR$/.idea/DSA.iml" />
     </modules>
   </component>
