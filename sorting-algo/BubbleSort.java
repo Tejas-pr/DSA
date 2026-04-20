@@ -7,6 +7,7 @@ public class BubbleSort {
         System.out.println(Arrays.toString(arr));
     }
 
+    // TC: worst - O(N^2), best - O(N)
     static void bubble(int[] arr) {
         boolean swapped;
         for (int i = 0; i < arr.length; i++) {
