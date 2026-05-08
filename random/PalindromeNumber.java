@@ -5,13 +5,14 @@ public class PalindromeNumber {
         String str = "abbcbba";
         System.out.println(isPalindrom(str));
     }
+
     static boolean isPalindrom(String str) {
         str = str.toLowerCase();
-        for(int i=0;i<=str.length()/2;i++) {
+        for (int i = 0; i <= str.length() / 2; i++) {
             char start = str.charAt(i);
             char end = str.charAt(str.length() - i - 1);
-            
-            if(start != end) {
+
+            if (start != end) {
                 return false;
             }
         }
