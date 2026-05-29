@@ -3,6 +3,10 @@ class ListNode {
     int val;
     ListNode next;
 
+    ListNode() {
+        val = 0;
+    }
+
     ListNode(int x) {
         val = x;
     }
