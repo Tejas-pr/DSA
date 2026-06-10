@@ -8,6 +8,6 @@ class OddEven {
 
 
     private static boolean isOdd(int n) {
-        return (n & 1) == 1;
+        return (n & 1) == 1; // if the final output is equal to 1 then it is odd number.
     }
 }
