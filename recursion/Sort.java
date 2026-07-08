@@ -8,7 +8,8 @@ import java.util.Arrays;
 public class Sort {
     public static void main(String[] args) {
         int[] arr = {4,3,2,1};
-        bubbleSort(arr, arr.length - 1, 0);
+        // bubbleSort(arr, arr.length - 1, 0);
+        selectionSort(arr, arr.length, 0, 0);
         System.out.println(Arrays.toString(arr));
     }
     public static void bubbleSort(int[] arr, int r, int c) {
@@ -25,6 +26,26 @@ public class Sort {
             bubbleSort(arr, r, c + 1);
         } else {
             bubbleSort(arr, r - 1, 0);
+        }
+    }
+    public static void selectionSort(int[] arr, int r, int c, int max) {
+        if(r == 0) {
+            return;
+        }
+        if(c < r) {
+            if(arr[c] > arr[max]) {
+                selectionSort(arr, r, c + 1, c);
+            } else {
+                selectionSort(arr, r, c + 1, max);
+            }
+        } else {
+            // swap with last element
+            int temp = arr[max];
+            arr[max] = arr[r - 1];
+            arr[r - 1] = temp;
+
+            // move to next part
+            selectionSort(arr, r - 1, 0, 0);
         }
     }
 }
